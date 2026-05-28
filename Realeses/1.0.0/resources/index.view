@@ -1,0 +1,214 @@
+<svg>
+
+  <!-- Background image -->
+  <image id="background"
+         href="current_bg.png"
+         x="0" y="0"
+         width="300" height="300" />
+
+<rect id="tap-zone"
+      x="0"
+      y="0"
+      width="336"
+      height="336"
+      fill="white"
+      opacity="0.01"
+      pointer-events="all" />
+
+  <!-- 🔳 HEART BACKGROUND BOX -->
+  <rect id="hrBg"
+        x="10"
+        y="28"
+        width="110"
+        height="30"
+        fill="black"
+        opacity="0.7" />
+
+  <!-- HEART TEXT -->
+  <text id="hrLabel"
+        x="20"
+        y="50"
+        fill="#FF4A4A"
+        font-size="24"
+        text-length="64">
+    ♥ --
+  </text>
+
+  <!-- 🔳 STEPS BACKGROUND BOX -->
+  <rect id="stepBg"
+        x="200"
+        y="23"
+        width="130"
+        height="30"
+        fill="black"
+        opacity="0.7" />
+
+  <!-- STEPS IMAGE + TEXT -->
+  <image id="shoe"
+         href="step.png"
+         x="205"
+         y="27"
+         width="24"
+         height="24"/>
+
+  <text id="step"
+        x="295"
+        y="50"
+        fill="white"
+        font-size="18"
+        text-anchor="end"
+        text-length="64">
+    --
+  </text>
+
+<!-- DIGITAL HIGHLIGHT (square) -->
+<rect id="digital-highlight"
+      x="60"
+      y="120"
+      width="230"
+      height="70"
+      rx="20"
+      fill="#000000"
+      opacity="0.55" />
+
+<!-- ANALOG HIGHLIGHT (circle) -->
+<circle id="analog-highlight"
+        cx="168"
+        cy="165"
+        r="125"
+        fill="#000000"
+        opacity="0.5" />
+
+<!-- TIME -->
+<text id="clock-label"
+      x="168"
+      y="165"
+      text-anchor="middle"
+      fill="white"
+      font-size="42"
+      font-family="System-Bold">
+  00:00:00 AM
+</text>
+
+<!-- DATE -->
+
+
+<rect id="date-highlight"
+      x="95"
+      y="300"
+      width="140"
+      height="90"
+      rx="20"
+      fill="#000000"
+      opacity="0.55" />
+
+<text id="date-label"
+      x="168"
+      y="320"
+      text-anchor="middle"
+      fill="white"
+      font-size="20">
+  MON JAN 1
+</text>
+
+  <g id="mins" pointer-events="visible" transform="translate(50%,50%)">
+    <rect x="$-4" y="-110" width="8" height="110" fill="#e0e0e0" />
+  </g>
+  <g id="hours" pointer-events="visible" transform="translate(50%,50%)">
+    <rect x="$-6" y="-75" width="12" height="75" fill="#ffffff" />
+  </g>
+  <g id="secs" pointer-events="visible" transform="translate(50%,50%)">
+    <rect x="$-2" y="-120" width="4" height="120" fill="#ff0000" />
+  </g>
+<circle id="center-circle" cx="50%" cy="50%" r="10" fill="#444444" />
+
+  <rect id="calorie"
+        x="230"
+        y="266"
+        width="105"
+        height="30"
+        fill="black"
+        opacity="0.7" />
+
+  <image id="fire"
+         href="burn.png"
+         x="235"
+         y="267"
+         width="24"
+         height="24"/>
+
+  <text id="calories"
+        x="305"
+        y="286"
+        fill="white"
+        font-size="18"
+        text-anchor="end"
+        text-length="64">
+    -----
+  </text>
+
+  <rect id="batterybg"
+        x="0"
+        y="266"
+        width="75"
+        height="30"
+        fill="black"
+        opacity="0.7" />
+
+<text id="battery"
+      x="40"
+      y="286"
+      text-anchor="middle"
+      fill="white"
+      font-size="20">
+ 100%
+</text>
+
+  <text id="sleepscore"
+        x="20"
+        y="50"
+        fill="#093bff"
+        font-size="22"
+        text-length="64">
+     --- Floors
+  </text>
+
+<image id="weather-icon"
+       x="205"
+       y="27"
+       width="24"
+       height="24"
+       href="weather_clear_day.png" />
+
+  <text id="temp"
+        x="295"
+        y="50"
+        fill="white"
+        font-size="18"
+        text-anchor="end"
+        text-length="64">
+    ---°F
+  </text>
+
+<text id="travel"
+      x="40"
+      y="286"
+      text-anchor="middle"
+      fill="white"
+      font-size="20">
+---Mi
+</text>
+
+  <text id="azm"
+        x="305"
+        y="286"
+        fill="white"
+        font-size="18"
+        text-anchor="end"
+        text-length="64">
+    ---- AZM
+  </text>
+
+
+
+</svg>
