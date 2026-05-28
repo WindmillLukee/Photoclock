@@ -1,0 +1,2 @@
+This photoclock version allows you to select as many images as you want and includes weather, steps, AZM, heartbeat, calories burnt, distance travled, how many floors you have gone up today. This is the very first version so there might be some bugs.
+  This version only works for the the Fitbit Sense and Versa 3. This photoclock version also switches the images randomly and when its loading the image the screen will go black or there is no image selected
